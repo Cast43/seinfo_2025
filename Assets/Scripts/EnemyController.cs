@@ -5,8 +5,10 @@ public class EnemyController : MonoBehaviour
     public float speed;
     public float moveInput = 1;
     public Rigidbody2D rig;
-    public Collider2D groundCollider;
+    // public Collider2D groundCollider;
     public LayerMask groundFilter;
+    public Transform checkPoint1;
+    public Transform checkPoint2;
     public int damage;
     public float deathImpulse = 20;
 
@@ -21,7 +23,8 @@ public class EnemyController : MonoBehaviour
         velocity.x = moveInput * speed;
         rig.linearVelocity = velocity;
 
-        if (!groundCollider.IsTouchingLayers(groundFilter))
+        bool isColliding = Physics2D.Linecast(checkPoint1.position, checkPoint2.position, groundFilter);
+        if (!isColliding)
         {
             Vector3 newScale = transform.localScale;
             newScale.x *= -1;
@@ -32,17 +35,21 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.CompareTag("Player")) // só o Player ativa
+        if (collider.CompareTag("Player")) // só o Player ativa
         {
-            Rigidbody2D colliderRig = collision.GetComponent<Rigidbody2D>();
-            if (colliderRig != null)
+            if (collider.transform.position.y > transform.position.y + 0.2f)
             {
-                // colliderRig.AddForce(Vector2.up * deathImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
-                colliderRig.linearVelocity = new Vector2(colliderRig.linearVelocity.x, deathImpulse); // "quicar"
-                var health = GetComponent<Health>();
-                if (health != null) health.TakeDamage(damage);
+                Rigidbody2D colliderRig = collider.GetComponent<Rigidbody2D>();
+                if (colliderRig != null)
+                {
+                    Debug.Log("acertou");
+                    // colliderRig.AddForce(Vector2.up * deathImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
+                    colliderRig.linearVelocity = new Vector2(colliderRig.linearVelocity.x, deathImpulse); // "quicar"
+                    var health = GetComponent<Health>();
+                    if (health != null) health.TakeDamage(damage);
+                }
             }
         }
     }

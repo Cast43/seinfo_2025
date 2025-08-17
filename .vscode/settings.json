@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Seinfo2025.sln"
+    "dotnet.defaultSolution": "seinfo_2025.sln"
 }

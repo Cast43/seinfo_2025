@@ -20,19 +20,17 @@ public class PlayerController : MonoBehaviour
         moveInput = Input.GetAxisRaw("Horizontal");
         Vector2 velocity = rig.linearVelocity;
         velocity.x = moveInput * speed;
-        rig.linearVelocity = velocity;
-
 
         if (Input.GetButton("Jump"))
         {
             if (jumpCollider.IsTouchingLayers(groundFilter))
             {
+                velocity.y = jumpImpulse;
+
                 // Debug.Log("pulo");
-                if (rig.totalForce.magnitude < jumpImpulse)
-                {
-                    rig.AddForce(Vector2.up * jumpImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
-                }
+                // rig.AddForce(Vector2.up * jumpImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
             }
         }
+        rig.linearVelocity = velocity;
     }
 }
