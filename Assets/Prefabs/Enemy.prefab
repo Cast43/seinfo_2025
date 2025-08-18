@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 7849099644977498160}
   - component: {fileID: 9031446810463496135}
   - component: {fileID: 88687397276355176}
-  - component: {fileID: 469632398241172453}
   - component: {fileID: 5325836394390003172}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -167,20 +166,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 0.50667715}
   m_EdgeRadius: 0
---- !u!114 &469632398241172453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 609980228168040479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d89d77d9d7e0794db1ebf47aed3c72c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLife: 1
-  maxLife: 1
 --- !u!114 &5325836394390003172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,12 +178,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9573edc96b5524695563158f65494d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  life: 1
   speed: 3
   moveInput: -1
   rig: {fileID: 0}
   groundFilter:
     serializedVersion: 2
     m_Bits: 64
+  wallFilter:
+    serializedVersion: 2
+    m_Bits: 768
   checkPoint1: {fileID: 6598521744249417120}
   checkPoint2: {fileID: 5803910177593759314}
   damage: 1
@@ -213,7 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8516823027779895284}
   - component: {fileID: 5867332764580448776}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -290,7 +279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5803910177593759314}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CheckPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
@@ -321,7 +310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6598521744249417120}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CheckPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}

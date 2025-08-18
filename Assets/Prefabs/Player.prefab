@@ -89,7 +89,6 @@ GameObject:
   - component: {fileID: 7779266934592211008}
   - component: {fileID: 3072745729470787488}
   - component: {fileID: 4401827816567401849}
-  - component: {fileID: 5074363449681374382}
   - component: {fileID: 1268738171858961610}
   - component: {fileID: 3947155557099084282}
   m_Layer: 0
@@ -198,20 +197,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &5074363449681374382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8352493237503090478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d89d77d9d7e0794db1ebf47aed3c72c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLife: 0
-  maxLife: 3
 --- !u!114 &1268738171858961610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,14 +209,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff31578805672b44485d2e8eca88e569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  life: 3
   moveInput: 0
   speed: 10
   jumpImpulse: 20
   rig: {fileID: 0}
   jumpCollider: {fileID: 8901345760013899974}
-  groundFilter:
+  jumpFilter:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 320
 --- !u!58 &3947155557099084282
 CircleCollider2D:
   m_ObjectHideFlags: 0

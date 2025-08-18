@@ -1,18 +1,27 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
 
+    public int life;
     public float moveInput;
     public float speed;
     public float jumpImpulse;
     public Rigidbody2D rig;
     public Collider2D jumpCollider;
-    public LayerMask groundFilter;
+    public LayerMask jumpFilter;
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+    }
+    void Update()
+    {
+        if (life <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     void FixedUpdate()
@@ -23,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButton("Jump"))
         {
-            if (jumpCollider.IsTouchingLayers(groundFilter))
+            if (jumpCollider.IsTouchingLayers(jumpFilter))
             {
                 velocity.y = jumpImpulse;
 
@@ -33,4 +42,33 @@ public class PlayerController : MonoBehaviour
         }
         rig.linearVelocity = velocity;
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Enemy"))
+        {
+            Vector2 pushDirection = transform.position - collision.transform.position;
+            Debug.Log("teste");
+            rig.linearVelocity = 20 * pushDirection.normalized;
+            life--;
+        }
+    }
+    // private void OnTriggerEnter2D(Collider2D collider)
+    // {
+    //     if (collider.CompareTag("Enemy")) // só o Player ativa
+    //     {
+    //         if (collider.transform.position.y > transform.position.y - 0.2f)
+    //         {
+    //             // Rigidbody2D colliderRig = collider.GetComponent<Rigidbody2D>();
+    //             if (rig != null)
+    //             {
+    //                 Debug.Log("acertou");
+    //                 // colliderRig.AddForce(Vector2.up * deathImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
+    //                 rig.linearVelocity = new Vector2(rig.linearVelocity.x, 30); // "quicar"
+    //                 life--;
+    //                 // var health = GetComponent<Health>();
+    //                 // if (health != null) health.TakeDamage(damage);
+    //             }
+    //         }
+    //     }
+    // }
 }
