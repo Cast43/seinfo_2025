@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float moveInput;
     public float speed;
     public float jumpImpulse;
+    public bool isJumping;
     public Rigidbody2D rig;
     public Collider2D jumpCollider;
     public LayerMask jumpFilter;
@@ -37,14 +38,20 @@ public class PlayerController : MonoBehaviour
             {
                 if (jumpCollider.IsTouchingLayers(jumpFilter))
                 {
-
                     velocity.y = jumpImpulse;
 
                     // Debug.Log("pulo");
                     // rig.AddForce(Vector2.up * jumpImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
                 }
             }
-
+        }
+        else
+        {
+            if (velocity.y > 0)
+            {
+                Debug.Log("release");
+                velocity.y *= 0.5f;
+            }
         }
         rig.linearVelocity = velocity;
     }
