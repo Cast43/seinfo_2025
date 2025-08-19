@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         if (life <= 0)
         {
+            GameManager.instance.currentLifes--;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
@@ -32,13 +33,18 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButton("Jump"))
         {
-            if (jumpCollider.IsTouchingLayers(jumpFilter))
+            if (velocity.y <= 0)
             {
-                velocity.y = jumpImpulse;
+                if (jumpCollider.IsTouchingLayers(jumpFilter))
+                {
 
-                // Debug.Log("pulo");
-                // rig.AddForce(Vector2.up * jumpImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
+                    velocity.y = jumpImpulse;
+
+                    // Debug.Log("pulo");
+                    // rig.AddForce(Vector2.up * jumpImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
+                }
             }
+
         }
         rig.linearVelocity = velocity;
     }
@@ -47,28 +53,31 @@ public class PlayerController : MonoBehaviour
         if (collision.collider.CompareTag("Enemy"))
         {
             Vector2 pushDirection = transform.position - collision.transform.position;
-            Debug.Log("teste");
             rig.linearVelocity = 20 * pushDirection.normalized;
             life--;
         }
     }
-    // private void OnTriggerEnter2D(Collider2D collider)
-    // {
-    //     if (collider.CompareTag("Enemy")) // só o Player ativa
-    //     {
-    //         if (collider.transform.position.y > transform.position.y - 0.2f)
-    //         {
-    //             // Rigidbody2D colliderRig = collider.GetComponent<Rigidbody2D>();
-    //             if (rig != null)
-    //             {
-    //                 Debug.Log("acertou");
-    //                 // colliderRig.AddForce(Vector2.up * deathImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
-    //                 rig.linearVelocity = new Vector2(rig.linearVelocity.x, 30); // "quicar"
-    //                 life--;
-    //                 // var health = GetComponent<Health>();
-    //                 // if (health != null) health.TakeDamage(damage);
-    //             }
-    //         }
-    //     }
-    // }
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.CompareTag("InstaDie"))
+        {
+            life -= life;
+        }
+        //     if (collider.CompareTag("Enemy")) // só o Player ativa
+        //     {
+        //         if (collider.transform.position.y > transform.position.y - 0.2f)
+        //         {
+        //             // Rigidbody2D colliderRig = collider.GetComponent<Rigidbody2D>();
+        //             if (rig != null)
+        //             {
+        //                 Debug.Log("acertou");
+        //                 // colliderRig.AddForce(Vector2.up * deathImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
+        //                 rig.linearVelocity = new Vector2(rig.linearVelocity.x, 30); // "quicar"
+        //                 life--;
+        //                 // var health = GetComponent<Health>();
+        //                 // if (health != null) health.TakeDamage(damage);
+        //             }
+        //         }
+        //     }
+    }
 }

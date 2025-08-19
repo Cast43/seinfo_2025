@@ -14,18 +14,16 @@ public class EnemyController : MonoBehaviour
     public int damage;
     public float deathImpulse = 20;
     public int point = 20;
-    public GameManager gameManager;
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
     void Update()
     {
         if (life <= 0)
         {
-            gameManager.AddScore(point);
+            GameManager.instance.AddScore(point);
             Destroy(gameObject);
         }
     }

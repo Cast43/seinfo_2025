@@ -212,7 +212,7 @@ MonoBehaviour:
   life: 3
   moveInput: 0
   speed: 10
-  jumpImpulse: 20
+  jumpImpulse: 30
   rig: {fileID: 0}
   jumpCollider: {fileID: 8901345760013899974}
   jumpFilter:
