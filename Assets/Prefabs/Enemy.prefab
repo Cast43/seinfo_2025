@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9031446810463496135}
   - component: {fileID: 88687397276355176}
   - component: {fileID: 5325836394390003172}
+  - component: {fileID: 7828765943253921581}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
@@ -157,8 +158,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: -0.24666142}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.94736844, y: 0.94736844}
+    pivot: {x: 0.5, y: 0.55}
+    oldSize: {x: 1.125, y: 1.125}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -178,10 +179,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9573edc96b5524695563158f65494d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flatSprite: {fileID: 8203917247392330234, guid: edbdd7d4da0ff66479b94e2bc7c90536, type: 3}
+  timeToDie: 3
   life: 1
   speed: 3
   moveInput: -1
   rig: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   groundFilter:
     serializedVersion: 2
     m_Bits: 64
@@ -190,9 +194,33 @@ MonoBehaviour:
     m_Bits: 768
   checkPoint1: {fileID: 6598521744249417120}
   checkPoint2: {fileID: 5803910177593759314}
+  anim: {fileID: 0}
+  col: {fileID: 0}
   damage: 1
-  deathImpulse: 20
+  deathImpulse: 100
   point: 20
+--- !u!95 &7828765943253921581
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609980228168040479}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6bc65cc2aef2e5a45ba8e4a8524adb8c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1627733197029084835
 GameObject:
   m_ObjectHideFlags: 0

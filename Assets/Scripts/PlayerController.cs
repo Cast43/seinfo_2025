@@ -8,26 +8,83 @@ public class PlayerController : MonoBehaviour
     public float moveInput;
     public float speed;
     public float jumpImpulse;
-    public bool isJumping;
+    public float waitToDie = 1.5f;
+    // public bool isJumping;
+    public bool dieying = false;
     public Rigidbody2D rig;
     public Collider2D jumpCollider;
     public LayerMask jumpFilter;
+    public Animator anim;
 
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
     void Update()
     {
+        anim.SetBool("Dieying", dieying);
+        anim.SetFloat("Speed", ((uint)rig.linearVelocityX));
+
+        if (rig.linearVelocityY > 0)
+        {
+            anim.SetBool("Falling", false);
+            anim.SetBool("Jump", true);
+        }
+        else if (rig.linearVelocityY < 0)
+        {
+            anim.SetBool("Jump", false);
+            anim.SetBool("Falling", true);
+        }
+        else
+        {
+            anim.SetBool("Falling", false);
+        }
         if (life <= 0)
         {
-            GameManager.instance.currentLifes--;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            if (dieying == false)
+            {
+                dieying = true;
+                GameManager.instance.currentLifes--;
+                rig.linearVelocityY += 50;
+            }
+            if (waitToDie > 0)
+            {
+                waitToDie -= Time.deltaTime;
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }
+        else
+        {
+            //alterar
+            if (moveInput < 0)
+            {
+                if (transform.localScale.x > 0)
+                {
+                    Vector3 newScale = transform.localScale;
+                    newScale.x = -transform.localScale.x;
+                    transform.localScale = newScale;
+                }
+            }
+            else
+            {
+                if (transform.localScale.x < 0)
+                {
+                    Vector3 newScale = transform.localScale;
+                    newScale.x = -transform.localScale.x;
+                    transform.localScale = newScale;
+                }
+            }
         }
     }
 
     void FixedUpdate()
     {
+        if (dieying) return;
+
         moveInput = Input.GetAxisRaw("Horizontal");
         Vector2 velocity = rig.linearVelocity;
         velocity.x = moveInput * speed;
@@ -39,9 +96,6 @@ public class PlayerController : MonoBehaviour
                 if (jumpCollider.IsTouchingLayers(jumpFilter))
                 {
                     velocity.y = jumpImpulse;
-
-                    // Debug.Log("pulo");
-                    // rig.AddForce(Vector2.up * jumpImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
                 }
             }
         }
@@ -59,6 +113,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
+            anim.SetTrigger("Damaged");
             Vector2 pushDirection = transform.position - collision.transform.position;
             rig.linearVelocity = 20 * pushDirection.normalized;
             life--;
@@ -70,21 +125,5 @@ public class PlayerController : MonoBehaviour
         {
             life -= life;
         }
-        //     if (collider.CompareTag("Enemy")) // só o Player ativa
-        //     {
-        //         if (collider.transform.position.y > transform.position.y - 0.2f)
-        //         {
-        //             // Rigidbody2D colliderRig = collider.GetComponent<Rigidbody2D>();
-        //             if (rig != null)
-        //             {
-        //                 Debug.Log("acertou");
-        //                 // colliderRig.AddForce(Vector2.up * deathImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
-        //                 rig.linearVelocity = new Vector2(rig.linearVelocity.x, 30); // "quicar"
-        //                 life--;
-        //                 // var health = GetComponent<Health>();
-        //                 // if (health != null) health.TakeDamage(damage);
-        //             }
-        //         }
-        //     }
     }
 }

@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public float waitToRestart;
     public int currentLifes;
     public int startLifes;
     public int score;

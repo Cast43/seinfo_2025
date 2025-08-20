@@ -2,15 +2,20 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    public Sprite flatSprite;
+    public float timeToDie = 1.5f;
     public int life;
     public float speed;
     public float moveInput = 1;
     public Rigidbody2D rig;
+    public SpriteRenderer spriteRenderer;
     // public Collider2D groundCollider;
     public LayerMask groundFilter;
     public LayerMask wallFilter;
     public Transform checkPoint1;
     public Transform checkPoint2;
+    public Animator anim;
+    public Collider2D col;
     public int damage;
     public float deathImpulse = 20;
     public int point = 20;
@@ -18,18 +23,28 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        col = GetComponent<Collider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
         if (life <= 0)
         {
-            GameManager.instance.AddScore(point);
-            Destroy(gameObject);
+            anim.enabled = false;
+            col.enabled = false;
+            rig.Sleep();
+            Destroy(gameObject, timeToDie);
         }
+    }
+    void OnDestroy()
+    {
+        GameManager.instance.AddScore(point);
     }
 
     void FixedUpdate()
     {
+        if (life <= 0) return;
         Vector2 velocity = rig.linearVelocity;
         velocity.x = moveInput * speed;
         rig.linearVelocity = velocity;
@@ -48,6 +63,7 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        if (life <= 0) return;
         if (collider.CompareTag("Player")) // só o Player ativa
         {
             if (collider.transform.position.y > transform.position.y + 0.2f)
@@ -57,7 +73,8 @@ public class EnemyController : MonoBehaviour
                 {
                     Debug.Log("acertou");
                     // colliderRig.AddForce(Vector2.up * deathImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
-                    colliderRig.linearVelocity = new Vector2(colliderRig.linearVelocity.x, deathImpulse); // "quicar"
+                    colliderRig.linearVelocityY = deathImpulse; // "quicar"
+                    spriteRenderer.sprite = flatSprite;
                     life--;
                     // var health = GetComponent<Health>();
                     // if (health != null) health.TakeDamage(damage);
