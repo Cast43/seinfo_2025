@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
 
-    public int life;
+    public int life = 1;
     public float moveInput;
     public float speed;
     public float jumpImpulse;
     public float waitToDie = 1.5f;
-    // public bool isJumping;
+    public bool isJumping;
     public bool dieying = false;
     public Rigidbody2D rig;
     public Collider2D jumpCollider;
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
     {
         anim.SetBool("Dieying", dieying);
         anim.SetFloat("Speed", ((uint)rig.linearVelocityX));
-
         if (rig.linearVelocityY > 0)
         {
             anim.SetBool("Falling", false);
@@ -39,6 +38,14 @@ public class PlayerController : MonoBehaviour
         else
         {
             anim.SetBool("Falling", false);
+        }
+        if (Input.GetButton("Jump"))
+        {
+            isJumping = true;
+        }
+        else
+        {
+            isJumping = false;
         }
         if (life <= 0)
         {
@@ -54,13 +61,14 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);//isso está matando os inimigos e zuando a pontuação
+                //resolvido
             }
         }
         else
         {
             //alterar
-            if (moveInput < 0)
+            if (rig.linearVelocityX < 0)
             {
                 if (transform.localScale.x > 0)
                 {
@@ -69,7 +77,7 @@ public class PlayerController : MonoBehaviour
                     transform.localScale = newScale;
                 }
             }
-            else
+            else if (rig.linearVelocityX > 0)
             {
                 if (transform.localScale.x < 0)
                 {
@@ -89,24 +97,29 @@ public class PlayerController : MonoBehaviour
         Vector2 velocity = rig.linearVelocity;
         velocity.x = moveInput * speed;
 
-        if (Input.GetButton("Jump"))
+
+        if (isJumping)
         {
             if (velocity.y <= 0)
             {
                 if (jumpCollider.IsTouchingLayers(jumpFilter))
                 {
+                    Debug.Log("pula");
                     velocity.y = jumpImpulse;
                 }
             }
         }
         else
         {
-            if (velocity.y > 0)
+            if (!jumpCollider.IsTouchingLayers(jumpFilter))
             {
-                Debug.Log("release");
-                velocity.y *= 0.5f;
+                if (velocity.y > 0)
+                {
+                    velocity.y *= 0.5f;// isso diminui o valor da velocidade do koopaJump se nao estiver jumping
+                }
             }
         }
+
         rig.linearVelocity = velocity;
     }
     void OnCollisionEnter2D(Collision2D collision)
@@ -114,9 +127,16 @@ public class PlayerController : MonoBehaviour
         if (collision.collider.CompareTag("Enemy"))
         {
             anim.SetTrigger("Damaged");
-            Vector2 pushDirection = transform.position - collision.transform.position;
-            rig.linearVelocity = 20 * pushDirection.normalized;
+            anim.SetBool("Grow", false);
+            // Vector2 pushDirection = transform.position - collision.transform.position;
+            // rig.linearVelocity = 20 * pushDirection.normalized;
             life--;
+        }
+        if (collision.collider.CompareTag("Mushroom"))
+        {
+            anim.SetBool("Grow", true);
+            life++;
+            Destroy(collision.gameObject);
         }
     }
     private void OnTriggerEnter2D(Collider2D collider)

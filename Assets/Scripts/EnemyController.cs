@@ -39,7 +39,10 @@ public class EnemyController : MonoBehaviour
     }
     void OnDestroy()
     {
-        GameManager.instance.AddScore(point);
+        if (life <= 0)
+        {
+            GameManager.instance.AddScore(point);
+        }
     }
 
     void FixedUpdate()
@@ -73,7 +76,8 @@ public class EnemyController : MonoBehaviour
                 {
                     Debug.Log("acertou");
                     // colliderRig.AddForce(Vector2.up * deathImpulse, ForceMode2D.Impulse); // ajuste a força conforme necessário
-                    colliderRig.linearVelocityY = deathImpulse; // "quicar"
+                    colliderRig.linearVelocityY = deathImpulse;
+                    Debug.Log(colliderRig.linearVelocityY);
                     spriteRenderer.sprite = flatSprite;
                     life--;
                     // var health = GetComponent<Health>();

@@ -3538,7 +3538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_57
+      name: mushroom
       rect:
         serializedVersion: 2
         x: 290
@@ -18335,6 +18335,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      mushroom: 6185758719116078916
       tiles_transparent_v2_0: -8641159462657705378
       tiles_transparent_v2_1: -6736248074710500950
       tiles_transparent_v2_10: 6480644028289004575
@@ -18858,7 +18859,6 @@ TextureImporter:
       tiles_transparent_v2_567: 5123079647927741910
       tiles_transparent_v2_568: 3999255137164258615
       tiles_transparent_v2_569: -6195492492838067553
-      tiles_transparent_v2_57: 6185758719116078916
       tiles_transparent_v2_570: 8739742852814546099
       tiles_transparent_v2_571: -6035503610748970612
       tiles_transparent_v2_572: 2002981273809606377

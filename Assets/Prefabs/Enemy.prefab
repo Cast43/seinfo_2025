@@ -197,7 +197,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   col: {fileID: 0}
   damage: 1
-  deathImpulse: 100
+  deathImpulse: 20
   point: 20
 --- !u!95 &7828765943253921581
 Animator:
