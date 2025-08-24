@@ -8312,7 +8312,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_274
+      name: mysteryBlock
       rect:
         serializedVersion: 2
         x: 172
@@ -18336,6 +18336,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       mushroom: 6185758719116078916
+      mysteryBlock: 631013670950880297
       tiles_transparent_v2_0: -8641159462657705378
       tiles_transparent_v2_1: -6736248074710500950
       tiles_transparent_v2_10: 6480644028289004575
@@ -18531,7 +18532,6 @@ TextureImporter:
       tiles_transparent_v2_271: 3608837352934008115
       tiles_transparent_v2_272: -3048787176788522257
       tiles_transparent_v2_273: 4688282835081195643
-      tiles_transparent_v2_274: 631013670950880297
       tiles_transparent_v2_275: -8516519468377363139
       tiles_transparent_v2_276: 3595636202607238169
       tiles_transparent_v2_277: -1922368678891630963

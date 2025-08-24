@@ -127,14 +127,14 @@ public class PlayerController : MonoBehaviour
         if (collision.collider.CompareTag("Enemy"))
         {
             anim.SetTrigger("Damaged");
-            anim.SetBool("Grow", false);
+            // anim.SetBool("Grow", false);
             // Vector2 pushDirection = transform.position - collision.transform.position;
             // rig.linearVelocity = 20 * pushDirection.normalized;
             life--;
         }
         if (collision.collider.CompareTag("Mushroom"))
         {
-            anim.SetBool("Grow", true);
+            // anim.SetBool("Grow", true);
             life++;
             Destroy(collision.gameObject);
         }

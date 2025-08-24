@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: a837e1c5dd3fd4d48ba91cf5eb202747
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2338047053941620488
+    second: mario-custom-5_0
+  - first:
+      213: -5466835163491704169
+    second: mario-custom-5_1
+  - first:
+      213: 4443845283339507981
+    second: mario-custom-5_2
+  - first:
+      213: -1910182786118139579
+    second: mario-custom-5_3
+  - first:
+      213: -5686222200662883082
+    second: mario-custom-5_4
+  - first:
+      213: 2460613293885244772
+    second: mario-custom-5_5
+  - first:
+      213: 8051327038846209119
+    second: mario-custom-5_6
+  - first:
+      213: -639208771385330014
+    second: mario-custom-5_7
+  - first:
+      213: -2419645608379415311
+    second: mario-custom-5_8
+  - first:
+      213: -5478463673644227276
+    second: mario-custom-5_9
+  - first:
+      213: 814354633075155271
+    second: mario-custom-5_10
+  - first:
+      213: -8793905196021983936
+    second: mario-custom-5_11
+  - first:
+      213: 3445484595920343993
+    second: mario-custom-5_12
+  - first:
+      213: 5809313168784227071
+    second: mario-custom-5_13
+  - first:
+      213: 1645424413726447516
+    second: mario-custom-5_14
+  - first:
+      213: -7071234340097759297
+    second: mario-custom-5_15
+  - first:
+      213: -4120762130369602614
+    second: mario-custom-5_16
+  - first:
+      213: 1623449365139931928
+    second: mario-custom-5_17
+  - first:
+      213: -783309603844302489
+    second: mario-custom-5_18
+  - first:
+      213: -5448745990706429530
+    second: mario-custom-5_19
+  - first:
+      213: -8868165500294671853
+    second: mario-custom-5_20
+  - first:
+      213: -970669492032421956
+    second: mario-custom-5_21
+  - first:
+      213: 6286089661887756861
+    second: mario-custom-5_22
+  - first:
+      213: -196186987704576403
+    second: mario-custom-5_23
+  - first:
+      213: -7713388993532860059
+    second: mario-custom-5_24
+  - first:
+      213: 6127518031776507416
+    second: mario-custom-5_25
+  - first:
+      213: 7076372066770897807
+    second: mario-custom-5_26
+  - first:
+      213: -4848090563793017036
+    second: mario-custom-5_27
+  - first:
+      213: 3269369616797010536
+    second: mario-custom-5_28
+  - first:
+      213: 441441951129624859
+    second: mario-custom-5_29
+  - first:
+      213: -5139251638333333672
+    second: mario-custom-5_30
+  - first:
+      213: -4923104302420943527
+    second: mario-custom-5_31
+  - first:
+      213: -1470568636409052607
+    second: mario-custom-5_32
+  - first:
+      213: -7507116749990344568
+    second: mario-custom-5_33
+  - first:
+      213: 6947037465967226293
+    second: mario-custom-5_34
+  - first:
+      213: -6564512975505688422
+    second: mario-custom-5_35
+  - first:
+      213: -8862655549543035090
+    second: mario-custom-5_36
+  - first:
+      213: -4157379008898070744
+    second: mario-custom-5_37
+  - first:
+      213: -231210236033412294
+    second: mario-custom-5_38
+  - first:
+      213: 1899781021338017465
+    second: mario-custom-5_39
+  - first:
+      213: 6790144972005580882
+    second: mario-custom-5_40
+  - first:
+      213: -6755224011581714041
+    second: mario-custom-5_41
+  - first:
+      213: -7926084717201845605
+    second: mario-custom-5_42
+  - first:
+      213: 6434596573485911352
+    second: mario-custom-5_43
+  - first:
+      213: -7421866060346029030
+    second: mario-custom-5_44
+  - first:
+      213: 2088334995192565393
+    second: mario-custom-5_45
+  - first:
+      213: -7720811014746044101
+    second: mario-custom-5_46
+  - first:
+      213: -8989452109661518020
+    second: mario-custom-5_47
+  - first:
+      213: 1140659686270604001
+    second: mario-custom-5_48
+  - first:
+      213: -7494059864464350500
+    second: mario-custom-5_49
+  - first:
+      213: -6486839515687613725
+    second: mario-custom-5_50
+  - first:
+      213: 66811265582824993
+    second: mario-custom-5_51
+  - first:
+      213: -297306625028552419
+    second: mario-custom-5_52
+  - first:
+      213: -4451384690771685786
+    second: mario-custom-5_53
+  - first:
+      213: -8411481027844135419
+    second: mario-custom-5_54
+  - first:
+      213: -5278899857021964722
+    second: mario-custom-5_55
+  - first:
+      213: -5028298504845500830
+    second: mario-custom-5_56
+  - first:
+      213: -5593236842318396475
+    second: mario-custom-5_57
+  - first:
+      213: -4191068808725438905
+    second: mario-custom-5_58
+  - first:
+      213: -6444353171213151290
+    second: mario-custom-5_59
+  - first:
+      213: -6850972619114732153
+    second: mario-custom-5_60
+  - first:
+      213: -4878220247070488616
+    second: mario-custom-5_61
+  - first:
+      213: -8277904668315118763
+    second: mario-custom-5_62
+  - first:
+      213: -6152895820182677392
+    second: mario-custom-5_63
+  - first:
+      213: -1840765300247963249
+    second: mario-custom-5_64
+  - first:
+      213: 6237846535567618958
+    second: mario-custom-5_65
+  - first:
+      213: 2777683355834170933
+    second: mario-custom-5_66
+  - first:
+      213: 8350299209483964499
+    second: mario-custom-5_67
+  - first:
+      213: -6037789339790254982
+    second: mario-custom-5_68
+  - first:
+      213: 6498906354425160868
+    second: mario-custom-5_69
+  - first:
+      213: -5658725101650886726
+    second: mario-custom-5_70
+  - first:
+      213: -7375948169795099620
+    second: mario-custom-5_71
+  - first:
+      213: -6156303401986916600
+    second: mario-custom-5_72
+  - first:
+      213: 7597658533253600148
+    second: mario-custom-5_73
+  - first:
+      213: -5022126859703448730
+    second: mario-custom-5_74
+  - first:
+      213: 5635897116846655277
+    second: mario-custom-5_75
+  - first:
+      213: 1423252706917492227
+    second: mario-custom-5_76
+  - first:
+      213: 4268965855377744022
+    second: mario-custom-5_77
+  - first:
+      213: -5531760506181806565
+    second: mario-custom-5_78
+  - first:
+      213: -3130585023669416756
+    second: mario-custom-5_79
+  - first:
+      213: 7529501454402437298
+    second: mario-custom-5_80
+  - first:
+      213: 5881123674951363989
+    second: mario-custom-5_81
+  - first:
+      213: -8253237096668130887
+    second: mario-custom-5_82
+  - first:
+      213: -2626121083614987529
+    second: mario-custom-5_83
+  - first:
+      213: -114683616261641065
+    second: mario-custom-5_84
+  - first:
+      213: 1663858539544199508
+    second: mario-custom-5_85
+  - first:
+      213: -6466890370112187215
+    second: mario-custom-5_86
+  - first:
+      213: -1494060873808991691
+    second: mario-custom-5_87
+  - first:
+      213: 3698810866423652906
+    second: mario-custom-5_88
+  - first:
+      213: 7674851455166283831
+    second: mario-custom-5_89
+  - first:
+      213: -7949601322933069465
+    second: mario-custom-5_90
+  - first:
+      213: -7715178245316656595
+    second: mario-custom-5_91
+  - first:
+      213: 7111628066867198871
+    second: mario-custom-5_92
+  - first:
+      213: -4176120153794346831
+    second: mario-custom-5_93
+  - first:
+      213: -7519962214744983011
+    second: mario-custom-5_94
+  - first:
+      213: 3315511265691902469
+    second: mario-custom-5_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 19
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mario-custom-5_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 255
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f049a987969d8fd0800000000000000
+      internalID: -2338047053941620488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 256
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79266722266e124b0800000000000000
+      internalID: -5466835163491704169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 258
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d091f3e9db5bbad30800000000000000
+      internalID: 4443845283339507981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 256
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541cc5960eaad75e0800000000000000
+      internalID: -1910182786118139579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 258
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f48c8f090b7611b0800000000000000
+      internalID: -5686222200662883082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 256
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46542aff0cad52220800000000000000
+      internalID: 2460613293885244772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_6
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 258
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c0de8b84f0cbf60800000000000000
+      internalID: 8051327038846209119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 256
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6734452031127f0800000000000000
+      internalID: -639208771385330014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 258
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f406369321bb6ed0800000000000000
+      internalID: -2419645608379415311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 256
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435ed81a05698f3b0800000000000000
+      internalID: -5478463673644227276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_10
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 256
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74163a1693b2d4b00800000000000000
+      internalID: 814354633075155271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 257
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045d5aaf0d5c5f580800000000000000
+      internalID: -8793905196021983936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_12
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 256
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b399ea2cf1d0df20800000000000000
+      internalID: 3445484595920343993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 256
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaf1664c83de9050800000000000000
+      internalID: 5809313168784227071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 229
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c979be459c8b5d610800000000000000
+      internalID: 1645424413726447516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 230
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7edea25ddeddd90800000000000000
+      internalID: -7071234340097759297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 229
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb1077dcac10d6c0800000000000000
+      internalID: -4120762130369602614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 230
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813cfff9896a78610800000000000000
+      internalID: 1623449365139931928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_18
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 229
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76955b1c0102125f0800000000000000
+      internalID: -783309603844302489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 230
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a10c90e36a2264b0800000000000000
+      internalID: -5448745990706429530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_20
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 230
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312df898672fde480800000000000000
+      internalID: -8868165500294671853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_21
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 231
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf39156d3d7782f0800000000000000
+      internalID: -970669492032421956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 231
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a331b0e3dac3750800000000000000
+      internalID: 6286089661887756861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_23
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 229
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66905069f0074df0800000000000000
+      internalID: -196186987704576403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_24
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 229
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569e012e39984f490800000000000000
+      internalID: -7713388993532860059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_25
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 229
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816e6d65f21590550800000000000000
+      internalID: 6127518031776507416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_26
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 229
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b406a07e2543260800000000000000
+      internalID: 7076372066770897807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_27
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 204
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437a13a815f18bcb0800000000000000
+      internalID: -4848090563793017036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 203
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a04a838522f5d20800000000000000
+      internalID: 3269369616797010536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 202
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11690e9d11502600800000000000000
+      internalID: 441441951129624859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 204
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f1cc52dd5bda8b0800000000000000
+      internalID: -5139251638333333672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_31
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 203
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d900e78be9dabb0800000000000000
+      internalID: -4923104302420943527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_32
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 202
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1420209dd9d779be0800000000000000
+      internalID: -1470568636409052607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 202
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888c07d171d51d790800000000000000
+      internalID: -7507116749990344568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_34
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 202
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd6e40b4c5d86060800000000000000
+      internalID: 6947037465967226293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 202
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a987a83aa3a26e4a0800000000000000
+      internalID: -6564512975505688422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_36
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 200
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fc7daebb5810580800000000000000
+      internalID: -8862655549543035090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_37
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 202
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82707f171d50e46c0800000000000000
+      internalID: -4157379008898070744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_38
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 203
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a335bcce3839accf0800000000000000
+      internalID: -231210236033412294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_39
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 203
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be91eff5c06d5a10800000000000000
+      internalID: 1899781021338017465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_40
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 152
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2502cc550e07b3e50800000000000000
+      internalID: 6790144972005580882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_41
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 154
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7819b7b5d8f9042a0800000000000000
+      internalID: -6755224011581714041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_42
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 152
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b921883a1f3e00290800000000000000
+      internalID: -7926084717201845605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_43
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 152
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dc29bdd774c4950800000000000000
+      internalID: 6434596573485911352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_44
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 153
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c0c8e042c300990800000000000000
+      internalID: -7421866060346029030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_45
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 152
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e48781d914bfc10800000000000000
+      internalID: 2088334995192565393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 152
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b398328e94b2ad490800000000000000
+      internalID: -7720811014746044101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_47
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 152
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c374d363fec0f3380800000000000000
+      internalID: -8989452109661518020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_48
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 152
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e294c1f0ff64df00800000000000000
+      internalID: 1140659686270604001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_49
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 152
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2271d2240cff790800000000000000
+      internalID: -7494059864464350500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_50
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 152
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea097844dd1af5a0800000000000000
+      internalID: -6486839515687613725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_51
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 102
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12efe08fd7c5de000800000000000000
+      internalID: 66811265582824993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 104
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d198dc12331cfdbf0800000000000000
+      internalID: -297306625028552419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_53
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 102
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e01fb45318932c0800000000000000
+      internalID: -4451384690771685786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 102
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506a964329a644b80800000000000000
+      internalID: -8411481027844135419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_55
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 102
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e68518c849db6b0800000000000000
+      internalID: -5278899857021964722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_56
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 102
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e5e02a625e73ab0800000000000000
+      internalID: -5028298504845500830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_57
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 104
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c30cf4e9b4d062b0800000000000000
+      internalID: -5593236842318396475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_58
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 104
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e53baaf1556d5c0800000000000000
+      internalID: -4191068808725438905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_59
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 104
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c39da63fee0196a0800000000000000
+      internalID: -6444353171213151290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_60
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 104
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7852dbf63b47ce0a0800000000000000
+      internalID: -6850972619114732153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_61
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 102
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7ce3df7841d4cb0800000000000000
+      internalID: -4878220247070488616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_62
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 102
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5539788ff89fe1d80800000000000000
+      internalID: -8277904668315118763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_63
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 58
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078960ad9d58c9aa0800000000000000
+      internalID: -6152895820182677392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_64
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 54
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89dad356b94476e0800000000000000
+      internalID: -1840765300247963249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_65
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 53
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83b8e3ef58419650800000000000000
+      internalID: 6237846535567618958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_66
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 53
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eb20b9b405c8620800000000000000
+      internalID: 2777683355834170933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_67
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 54
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3505485a3e832e370800000000000000
+      internalID: 8350299209483964499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_68
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 53
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c5925c596753ca0800000000000000
+      internalID: -6037789339790254982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_69
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 53
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a46a0c85e0c03a50800000000000000
+      internalID: 6498906354425160868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_70
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 52
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf3382508b2871b0800000000000000
+      internalID: -5658725101650886726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_71
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 52
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14aba1183e53a990800000000000000
+      internalID: -7375948169795099620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_72
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 52
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f7a036caa609aa0800000000000000
+      internalID: -6156303401986916600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_73
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 50
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493db4f8e2e407960800000000000000
+      internalID: 7597658533253600148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_74
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 32
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b8d6eba32dd4ab0800000000000000
+      internalID: -5022126859703448730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_75
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 32
+        width: 18
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d270b48419ab63e40800000000000000
+      internalID: 5635897116846655277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_76
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 52
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3062e65dbc860c310800000000000000
+      internalID: 1423252706917492227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_77
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 9
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690ef08d3d96e3b30800000000000000
+      internalID: 4268965855377744022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_78
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 34
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b169f7ec02d3b33b0800000000000000
+      internalID: -5531760506181806565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 33
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccc60de18ded84d0800000000000000
+      internalID: -3130585023669416756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_80
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 34
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0c1750ea92e7860800000000000000
+      internalID: 7529501454402437298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 34
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59dad95a2d2fd9150800000000000000
+      internalID: 5881123674951363989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_82
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 32
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1150e869c967d80800000000000000
+      internalID: -8253237096668130887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_83
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 31
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faf6f9c9c42e8bd0800000000000000
+      internalID: -2626121083614987529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_84
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cea2fcbdf886ef0800000000000000
+      internalID: -114683616261641065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_85
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4514806b686371710800000000000000
+      internalID: 1663858539544199508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_86
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b49110b87df046a0800000000000000
+      internalID: -6466890370112187215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_87
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a2ec71d87044be0800000000000000
+      internalID: -1494060873808991691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_88
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a226988c2e0d45330800000000000000
+      internalID: 3698810866423652906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_89
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73083114cbc828a60800000000000000
+      internalID: 7674851455166283831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_90
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769599037b75da190800000000000000
+      internalID: -7949601322933069465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_91
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22441d334e2ee490800000000000000
+      internalID: -7715178245316656595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_92
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 17
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b315c3c0491b260800000000000000
+      internalID: 7111628066867198871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_93
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 17
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b00dbd98d07b06c0800000000000000
+      internalID: -4176120153794346831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_94
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 17
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1af3c9453ab3a790800000000000000
+      internalID: -7519962214744983011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario-custom-5_95
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5022f580eef030e20800000000000000
+      internalID: 3315511265691902469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mario-custom-5_0: -2338047053941620488
+      mario-custom-5_1: -5466835163491704169
+      mario-custom-5_10: 814354633075155271
+      mario-custom-5_11: -8793905196021983936
+      mario-custom-5_12: 3445484595920343993
+      mario-custom-5_13: 5809313168784227071
+      mario-custom-5_14: 1645424413726447516
+      mario-custom-5_15: -7071234340097759297
+      mario-custom-5_16: -4120762130369602614
+      mario-custom-5_17: 1623449365139931928
+      mario-custom-5_18: -783309603844302489
+      mario-custom-5_19: -5448745990706429530
+      mario-custom-5_2: 4443845283339507981
+      mario-custom-5_20: -8868165500294671853
+      mario-custom-5_21: -970669492032421956
+      mario-custom-5_22: 6286089661887756861
+      mario-custom-5_23: -196186987704576403
+      mario-custom-5_24: -7713388993532860059
+      mario-custom-5_25: 6127518031776507416
+      mario-custom-5_26: 7076372066770897807
+      mario-custom-5_27: -4848090563793017036
+      mario-custom-5_28: 3269369616797010536
+      mario-custom-5_29: 441441951129624859
+      mario-custom-5_3: -1910182786118139579
+      mario-custom-5_30: -5139251638333333672
+      mario-custom-5_31: -4923104302420943527
+      mario-custom-5_32: -1470568636409052607
+      mario-custom-5_33: -7507116749990344568
+      mario-custom-5_34: 6947037465967226293
+      mario-custom-5_35: -6564512975505688422
+      mario-custom-5_36: -8862655549543035090
+      mario-custom-5_37: -4157379008898070744
+      mario-custom-5_38: -231210236033412294
+      mario-custom-5_39: 1899781021338017465
+      mario-custom-5_4: -5686222200662883082
+      mario-custom-5_40: 6790144972005580882
+      mario-custom-5_41: -6755224011581714041
+      mario-custom-5_42: -7926084717201845605
+      mario-custom-5_43: 6434596573485911352
+      mario-custom-5_44: -7421866060346029030
+      mario-custom-5_45: 2088334995192565393
+      mario-custom-5_46: -7720811014746044101
+      mario-custom-5_47: -8989452109661518020
+      mario-custom-5_48: 1140659686270604001
+      mario-custom-5_49: -7494059864464350500
+      mario-custom-5_5: 2460613293885244772
+      mario-custom-5_50: -6486839515687613725
+      mario-custom-5_51: 66811265582824993
+      mario-custom-5_52: -297306625028552419
+      mario-custom-5_53: -4451384690771685786
+      mario-custom-5_54: -8411481027844135419
+      mario-custom-5_55: -5278899857021964722
+      mario-custom-5_56: -5028298504845500830
+      mario-custom-5_57: -5593236842318396475
+      mario-custom-5_58: -4191068808725438905
+      mario-custom-5_59: -6444353171213151290
+      mario-custom-5_6: 8051327038846209119
+      mario-custom-5_60: -6850972619114732153
+      mario-custom-5_61: -4878220247070488616
+      mario-custom-5_62: -8277904668315118763
+      mario-custom-5_63: -6152895820182677392
+      mario-custom-5_64: -1840765300247963249
+      mario-custom-5_65: 6237846535567618958
+      mario-custom-5_66: 2777683355834170933
+      mario-custom-5_67: 8350299209483964499
+      mario-custom-5_68: -6037789339790254982
+      mario-custom-5_69: 6498906354425160868
+      mario-custom-5_7: -639208771385330014
+      mario-custom-5_70: -5658725101650886726
+      mario-custom-5_71: -7375948169795099620
+      mario-custom-5_72: -6156303401986916600
+      mario-custom-5_73: 7597658533253600148
+      mario-custom-5_74: -5022126859703448730
+      mario-custom-5_75: 5635897116846655277
+      mario-custom-5_76: 1423252706917492227
+      mario-custom-5_77: 4268965855377744022
+      mario-custom-5_78: -5531760506181806565
+      mario-custom-5_79: -3130585023669416756
+      mario-custom-5_8: -2419645608379415311
+      mario-custom-5_80: 7529501454402437298
+      mario-custom-5_81: 5881123674951363989
+      mario-custom-5_82: -8253237096668130887
+      mario-custom-5_83: -2626121083614987529
+      mario-custom-5_84: -114683616261641065
+      mario-custom-5_85: 1663858539544199508
+      mario-custom-5_86: -6466890370112187215
+      mario-custom-5_87: -1494060873808991691
+      mario-custom-5_88: 3698810866423652906
+      mario-custom-5_89: 7674851455166283831
+      mario-custom-5_9: -5478463673644227276
+      mario-custom-5_90: -7949601322933069465
+      mario-custom-5_91: -7715178245316656595
+      mario-custom-5_92: 7111628066867198871
+      mario-custom-5_93: -4176120153794346831
+      mario-custom-5_94: -7519962214744983011
+      mario-custom-5_95: 3315511265691902469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
