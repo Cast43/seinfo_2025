@@ -9,8 +9,8 @@ public class GeradorDePlataformas : MonoBehaviour
     public Transform jogadorTransform;
 
     [Header("Configurações de Geração")]
-    private float distanciaVertical = 3.7f;
-    private float variacaoHorizontal = 4f;
+    public float distanciaVertical = 3.7f;
+    public float variacaoHorizontal = 4f;
 
     private float proximoY=7;
     private float chanceDePlataformaDesaparece = 0.2f;
