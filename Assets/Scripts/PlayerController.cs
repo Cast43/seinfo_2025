@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask jumpFilter;
     public Animator anim;
     public Camera cameraObj;
+    public LayerMask enemyLayer;
 
     void Start()
     {
@@ -76,10 +77,12 @@ public class PlayerController : MonoBehaviour
             if (countTimeInvulnerable > 0)
             {
                 countTimeInvulnerable -= Time.deltaTime;
+                rig.excludeLayers = enemyLayer;
                 anim.SetBool("Damaged", true);
             }
             else
             {
+                rig.excludeLayers = 0;
                 anim.SetBool("Damaged", false);
             }
             //alterar
@@ -107,6 +110,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         if (dieying) return;
+        // if (countTimeInvulnerable > 0) return;
 
         moveInput = Input.GetAxisRaw("Horizontal");
         Vector2 velocity = rig.linearVelocity;
@@ -141,11 +145,15 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
+            if (countTimeInvulnerable > 0) return;
             countTimeInvulnerable = timeInvulnerable;
             // anim.SetBool("Grow", false);
-            Vector2 pushDirection = transform.position - collision.transform.position;
-            rig.linearVelocityX = 100 * pushDirection.x;
-            Debug.Log(100 * pushDirection.x);
+            Vector2 pushDirection = (transform.position - collision.transform.position).normalized;
+            float pushForce = 10f; // ajuste a força conforme necessário
+
+            rig.linearVelocity += new Vector2(pushDirection.x * pushForce, 0); // empurra para o lado e um pouco para cima
+            // rig.linearVelocityX = 100 * pushDirection.x;
+            // Debug.Log(100 * pushDirection.x); 
             life--;
         }
         if (collision.collider.CompareTag("Mushroom"))

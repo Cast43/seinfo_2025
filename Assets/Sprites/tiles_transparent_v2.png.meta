@@ -14032,7 +14032,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_534
+      name: Slide1
       rect:
         serializedVersion: 2
         x: 165
@@ -14054,7 +14054,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_535
+      name: slide2
       rect:
         serializedVersion: 2
         x: 182
@@ -14076,7 +14076,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_536
+      name: slide3
       rect:
         serializedVersion: 2
         x: 199
@@ -14384,13 +14384,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_550
+      name: ice1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 149
-        width: 18
-        height: 18
+        x: 13
+        y: 150
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -14406,13 +14406,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_551
+      name: ice2
       rect:
         serializedVersion: 2
-        x: 29
+        x: 30
         y: 149
-        width: 18
-        height: 18
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -14428,13 +14428,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_552
+      name: ice3
       rect:
         serializedVersion: 2
-        x: 46
+        x: 47
         y: 149
-        width: 18
-        height: 18
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -14582,7 +14582,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_559
+      name: slide4
       rect:
         serializedVersion: 2
         x: 165
@@ -14626,7 +14626,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_561
+      name: slide5
       rect:
         serializedVersion: 2
         x: 182
@@ -14670,7 +14670,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_563
+      name: slide6
       rect:
         serializedVersion: 2
         x: 199
@@ -15264,13 +15264,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_590
+      name: ice4
       rect:
         serializedVersion: 2
-        x: 12
-        y: 132
-        width: 18
-        height: 18
+        x: 13
+        y: 133
+        width: 17
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -15286,13 +15286,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_591
+      name: ice5
       rect:
         serializedVersion: 2
-        x: 29
-        y: 132
-        width: 18
-        height: 18
+        x: 30
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -15308,13 +15308,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_592
+      name: ice6
       rect:
         serializedVersion: 2
-        x: 46
-        y: 132
-        width: 18
-        height: 18
+        x: 47
+        y: 133
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -15924,13 +15924,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_620
+      name: ice7
       rect:
         serializedVersion: 2
-        x: 12
-        y: 115
-        width: 18
-        height: 18
+        x: 13
+        y: 116
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -15946,13 +15946,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_621
+      name: ice8
       rect:
         serializedVersion: 2
-        x: 29
-        y: 115
-        width: 18
-        height: 18
+        x: 30
+        y: 116
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -15968,13 +15968,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_622
+      name: ice9
       rect:
         serializedVersion: 2
-        x: 46
-        y: 115
-        width: 18
-        height: 18
+        x: 47
+        y: 116
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -18335,11 +18335,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Slide1: 301132494370898067
+      ice1: -3319687961526392914
+      ice2: 553549311261289283
+      ice3: 5644565991286358947
+      ice4: 5573821742315783672
+      ice5: 6425779495664680543
+      ice6: 3669295191463850334
+      ice7: -5321609804755850736
+      ice8: 496973241574663688
+      ice9: -4200755645951464618
       mushroom: 6185758719116078916
       mysteryBlock: 3595636202607238169
       mysteryBlock1: 631013670950880297
       mysteryBlock2: -8516519468377363139
       mysteryBlock3: -1922368678891630963
+      slide2: -2778770985487427988
+      slide3: 3343590678787144215
+      slide4: -1319022420169152733
+      slide5: -7643793194474536329
+      slide6: -3797507150667892
       tiles_transparent_v2_0: -8641159462657705378
       tiles_transparent_v2_1: -6736248074710500950
       tiles_transparent_v2_10: 6480644028289004575
@@ -18819,9 +18834,6 @@ TextureImporter:
       tiles_transparent_v2_531: -2438272436886521257
       tiles_transparent_v2_532: 3177017689766081119
       tiles_transparent_v2_533: 4187922903452921537
-      tiles_transparent_v2_534: 301132494370898067
-      tiles_transparent_v2_535: -2778770985487427988
-      tiles_transparent_v2_536: 3343590678787144215
       tiles_transparent_v2_537: -6349271253927738667
       tiles_transparent_v2_538: -3374869834965271616
       tiles_transparent_v2_539: 2859822325650462832
@@ -18837,21 +18849,15 @@ TextureImporter:
       tiles_transparent_v2_548: -7485241348962787045
       tiles_transparent_v2_549: -5703876009913993957
       tiles_transparent_v2_55: 8881837889594496807
-      tiles_transparent_v2_550: -3319687961526392914
-      tiles_transparent_v2_551: 553549311261289283
-      tiles_transparent_v2_552: 5644565991286358947
       tiles_transparent_v2_553: -3761623065184392057
       tiles_transparent_v2_554: 3010078864946692465
       tiles_transparent_v2_555: 7193132123728372043
       tiles_transparent_v2_556: -8123483171782369150
       tiles_transparent_v2_557: 6981371691550383136
       tiles_transparent_v2_558: -5252179111556231295
-      tiles_transparent_v2_559: -1319022420169152733
       tiles_transparent_v2_56: 8659727374701132604
       tiles_transparent_v2_560: 489260569038381410
-      tiles_transparent_v2_561: -7643793194474536329
       tiles_transparent_v2_562: -8739605349381316763
-      tiles_transparent_v2_563: -3797507150667892
       tiles_transparent_v2_564: 3204763361948904830
       tiles_transparent_v2_565: 3046516781646555583
       tiles_transparent_v2_566: 5785103477536765590
@@ -18880,9 +18886,6 @@ TextureImporter:
       tiles_transparent_v2_588: -2898684226919018795
       tiles_transparent_v2_589: 6882542773311172612
       tiles_transparent_v2_59: -3855609219766513516
-      tiles_transparent_v2_590: 5573821742315783672
-      tiles_transparent_v2_591: 6425779495664680543
-      tiles_transparent_v2_592: 3669295191463850334
       tiles_transparent_v2_593: -1582984874607754488
       tiles_transparent_v2_594: -7224170881303738371
       tiles_transparent_v2_595: -4110641965239794376
@@ -18914,9 +18917,6 @@ TextureImporter:
       tiles_transparent_v2_618: 4826933944091470592
       tiles_transparent_v2_619: 5199136460870673807
       tiles_transparent_v2_62: -5982637475282637998
-      tiles_transparent_v2_620: -5321609804755850736
-      tiles_transparent_v2_621: 496973241574663688
-      tiles_transparent_v2_622: -4200755645951464618
       tiles_transparent_v2_623: -6338870212282257215
       tiles_transparent_v2_624: 5970304029688060442
       tiles_transparent_v2_625: -2378049708461169910
