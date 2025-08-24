@@ -6,10 +6,13 @@ public class HudManager : MonoBehaviour
 
     public Text scoreField;
     public Text lifeField;
+    public Text totalLifesField;
+    public PlayerController playerCont;
 
     void Update()
     {
         scoreField.text = $"Score \nX{GameManager.instance.score.ToString()}";
-        lifeField.text = $"Mario \nX{GameManager.instance.currentLifes.ToString()}";
+        totalLifesField.text = $"Total Lifes \nX{GameManager.instance.currentLifes.ToString()}";
+        lifeField.text = $"Life \nX{playerCont.life.ToString()}";
     }
 }

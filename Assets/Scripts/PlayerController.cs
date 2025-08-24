@@ -9,12 +9,15 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jumpImpulse;
     public float waitToDie = 1.5f;
+    public float timeInvulnerable = 1f;
+    public float countTimeInvulnerable = 0f;
     public bool isJumping;
     public bool dieying = false;
     public Rigidbody2D rig;
     public Collider2D jumpCollider;
     public LayerMask jumpFilter;
     public Animator anim;
+    public Camera cameraObj;
 
     void Start()
     {
@@ -53,7 +56,10 @@ public class PlayerController : MonoBehaviour
             {
                 dieying = true;
                 GameManager.instance.currentLifes--;
-                rig.linearVelocityY += 50;
+                rig.linearVelocityX = 0;
+                rig.linearVelocityY += 20;
+                GetComponent<Collider2D>().enabled = false;
+                cameraObj.transform.parent = null;
             }
             if (waitToDie > 0)
             {
@@ -67,6 +73,15 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            if (countTimeInvulnerable > 0)
+            {
+                countTimeInvulnerable -= Time.deltaTime;
+                anim.SetBool("Damaged", true);
+            }
+            else
+            {
+                anim.SetBool("Damaged", false);
+            }
             //alterar
             if (rig.linearVelocityX < 0)
             {
@@ -126,10 +141,11 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
-            anim.SetTrigger("Damaged");
+            countTimeInvulnerable = timeInvulnerable;
             // anim.SetBool("Grow", false);
-            // Vector2 pushDirection = transform.position - collision.transform.position;
-            // rig.linearVelocity = 20 * pushDirection.normalized;
+            Vector2 pushDirection = transform.position - collision.transform.position;
+            rig.linearVelocityX = 100 * pushDirection.x;
+            Debug.Log(100 * pushDirection.x);
             life--;
         }
         if (collision.collider.CompareTag("Mushroom"))

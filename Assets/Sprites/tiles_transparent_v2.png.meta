@@ -5562,7 +5562,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_149
+      name: used
       rect:
         serializedVersion: 2
         x: 256
@@ -8312,13 +8312,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mysteryBlock
+      name: mysteryBlock1
       rect:
         serializedVersion: 2
-        x: 172
-        y: 391
-        width: 18
-        height: 18
+        x: 173
+        y: 392
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8334,13 +8334,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_275
+      name: mysteryBlock2
       rect:
         serializedVersion: 2
-        x: 189
-        y: 391
-        width: 18
-        height: 18
+        x: 190
+        y: 392
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8356,13 +8356,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_276
+      name: mysteryBlock
       rect:
         serializedVersion: 2
-        x: 206
-        y: 391
-        width: 18
-        height: 18
+        x: 207
+        y: 392
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8378,13 +8378,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_277
+      name: mysteryBlock3
       rect:
         serializedVersion: 2
-        x: 223
-        y: 391
-        width: 18
-        height: 18
+        x: 224
+        y: 392
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -18336,7 +18336,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       mushroom: 6185758719116078916
-      mysteryBlock: 631013670950880297
+      mysteryBlock: 3595636202607238169
+      mysteryBlock1: 631013670950880297
+      mysteryBlock2: -8516519468377363139
+      mysteryBlock3: -1922368678891630963
       tiles_transparent_v2_0: -8641159462657705378
       tiles_transparent_v2_1: -6736248074710500950
       tiles_transparent_v2_10: 6480644028289004575
@@ -18393,7 +18396,6 @@ TextureImporter:
       tiles_transparent_v2_146: -3407348319676541118
       tiles_transparent_v2_147: -7728792167116065453
       tiles_transparent_v2_148: 4698253391018036926
-      tiles_transparent_v2_149: -3887599405243056118
       tiles_transparent_v2_15: -4912657026720420333
       tiles_transparent_v2_150: -8571131043521787291
       tiles_transparent_v2_151: -5280584951063629796
@@ -18532,9 +18534,6 @@ TextureImporter:
       tiles_transparent_v2_271: 3608837352934008115
       tiles_transparent_v2_272: -3048787176788522257
       tiles_transparent_v2_273: 4688282835081195643
-      tiles_transparent_v2_275: -8516519468377363139
-      tiles_transparent_v2_276: 3595636202607238169
-      tiles_transparent_v2_277: -1922368678891630963
       tiles_transparent_v2_278: 6221724288161909899
       tiles_transparent_v2_279: 912277939672713739
       tiles_transparent_v2_28: 308150894366493557
@@ -19064,6 +19063,7 @@ TextureImporter:
       tiles_transparent_v2_97: -1973678949702354460
       tiles_transparent_v2_98: 4922362418663997715
       tiles_transparent_v2_99: 7178809815451191345
+      used: -3887599405243056118
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
