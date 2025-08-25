@@ -543,7 +543,7 @@ MonoBehaviour:
   bar: {fileID: 4973699252517928253}
   scoreValue: 20
   barVelocity: 2
-  nextSceneName: Lvl2
+  nextSceneName: final_screen
 --- !u!1 &5212203160136828272
 GameObject:
   m_ObjectHideFlags: 0

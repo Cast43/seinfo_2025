@@ -3697,6 +3697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndPole
       objectReference: {fileID: 0}
+    - target: {fileID: 6261253930460665071, guid: b51ef342f25e873459208c8db36098a9, type: 3}
+      propertyPath: nextSceneName
+      value: Lvl2
+      objectReference: {fileID: 0}
     - target: {fileID: 8988016589848412132, guid: b51ef342f25e873459208c8db36098a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32
