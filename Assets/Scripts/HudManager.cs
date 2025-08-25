@@ -11,8 +11,13 @@ public class HudManager : MonoBehaviour
 
     void Update()
     {
+        if(lifeField != null)
+        {
+            lifeField.text = $"Life \nX{playerCont.life.ToString()}";
+        }
+
+
         scoreField.text = $"Score \nX{GameManager.instance.score.ToString()}";
         totalLifesField.text = $"Total Lifes \nX{GameManager.instance.currentLifes.ToString()}";
-        lifeField.text = $"Life \nX{playerCont.life.ToString()}";
     }
 }

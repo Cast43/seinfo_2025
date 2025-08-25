@@ -4,7 +4,7 @@ public class moveYFlorr : MonoBehaviour
 {
     private float velocidadeLava = 2f;
     private float timer = 0.0f;
-    public float intervaloDeAumento = 60.0f;
+    public float intervaloDeAumento = 5.0f;
     public float valorDoAumento = 0.5f;
 
 

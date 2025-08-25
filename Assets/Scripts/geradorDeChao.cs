@@ -12,7 +12,7 @@ public class GeradorDePlataformas : MonoBehaviour
     [Header("Configurações de Geração")]
     public float distanciaVertical = 3.7f;
     public float variacaoHorizontal = 4f;
-    public float limitePlataformas = 10;
+    public float limitePlataformas = 15;
 
     private float proximoY=7;
     private float chanceDePlataformaDesaparece = 0.2f;
