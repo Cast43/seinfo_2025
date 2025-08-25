@@ -6464,13 +6464,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_transparent_v2_190
+      name: wall_lv3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 444
-        width: 18
-        height: 18
+        x: 18
+        y: 445
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -15905,8 +15905,8 @@ TextureImporter:
       name: tiles_transparent_v2_619
       rect:
         serializedVersion: 2
-        x: 510
-        y: 130
+        x: 511
+        y: 131
         width: 18
         height: 18
       alignment: 0
@@ -18441,7 +18441,6 @@ TextureImporter:
       tiles_transparent_v2_188: -6292186453746951536
       tiles_transparent_v2_189: -415758663497221321
       tiles_transparent_v2_19: -2200539621140696496
-      tiles_transparent_v2_190: -950784664792562915
       tiles_transparent_v2_191: 6427546652732004650
       tiles_transparent_v2_192: -834806408413047435
       tiles_transparent_v2_193: -3789208899002527768
@@ -19064,6 +19063,7 @@ TextureImporter:
       tiles_transparent_v2_98: 4922362418663997715
       tiles_transparent_v2_99: 7178809815451191345
       used: -3887599405243056118
+      wall_lv3: -950784664792562915
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
