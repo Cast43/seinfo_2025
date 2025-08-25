@@ -6,6 +6,9 @@ public class WeakGround : MonoBehaviour
     public float countTimeToDestroy = 0f;
     public float timeToRestore = 3f;
     public float countTimeToRestore = 0f;
+    public SpriteRenderer sprite1;
+    public SpriteRenderer sprite2;
+    public SpriteRenderer sprite3;
     void Start()
     {
         // countTimeToDestroy = timeToDestroy;
@@ -18,7 +21,9 @@ public class WeakGround : MonoBehaviour
             if (countTimeToDestroy <= 0)
             {
                 GetComponent<Collider2D>().enabled = false;
-                GetComponent<SpriteRenderer>().enabled = false;
+                sprite1.enabled = false;
+                sprite2.enabled = false;
+                sprite3.enabled = false;
                 countTimeToRestore -= Time.deltaTime;
             }
             else
@@ -29,7 +34,9 @@ public class WeakGround : MonoBehaviour
         else
         {
             GetComponent<Collider2D>().enabled = true;
-            GetComponent<SpriteRenderer>().enabled = true;
+            sprite1.enabled = true;
+            sprite2.enabled = true;
+            sprite3.enabled = true;
 
         }
 

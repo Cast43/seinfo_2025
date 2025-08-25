@@ -7,10 +7,13 @@ public class PlayerController : MonoBehaviour
     public int life = 1;
     public float moveInput;
     public float speed;
+    public float iceAcceleration = 5f; // quanto menor, mais escorrega
+    public bool onIce = false;
     public float jumpImpulse;
     public float waitToDie = 1.5f;
     public float timeInvulnerable = 1f;
     public float countTimeInvulnerable = 0f;
+    public float vectorInIce;
     public bool isJumping;
     public bool dieying = false;
     public Rigidbody2D rig;
@@ -114,7 +117,19 @@ public class PlayerController : MonoBehaviour
 
         moveInput = Input.GetAxisRaw("Horizontal");
         Vector2 velocity = rig.linearVelocity;
-        velocity.x = moveInput * speed;
+        if (moveInput != 0)
+        {
+            vectorInIce = moveInput * speed;
+        }
+        if (onIce)
+        {
+            // desliza suavemente (quanto menor iceAcceleration, mais escorrega)
+            velocity.x = Mathf.Lerp(velocity.x, vectorInIce, Time.deltaTime * iceAcceleration);
+        }
+        else
+        {
+            velocity.x = moveInput * speed;
+        }
 
 
         if (isJumping)
@@ -123,7 +138,6 @@ public class PlayerController : MonoBehaviour
             {
                 if (jumpCollider.IsTouchingLayers(jumpFilter))
                 {
-                    Debug.Log("pula");
                     velocity.y = jumpImpulse;
                 }
             }
@@ -162,6 +176,13 @@ public class PlayerController : MonoBehaviour
             life++;
             Destroy(collision.gameObject);
         }
+        if (collision.collider.CompareTag("Ice"))
+            onIce = true;
+    }
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Ice"))
+            onIce = false;
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
