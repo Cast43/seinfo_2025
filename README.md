@@ -3,12 +3,16 @@
 An educational project inspired by **Super Mario World**, developed in **Unity** with the goal of studying and recreating classic 2D platformer mechanics.  
 This project has no official relation with Nintendo or Super Mario.
 
+![Level Example](mario2.png)
+
 ---
 
 ## 🎮 About the Project
 
 This is a **2D platformer game** with smooth movement, simple physics, and a basic enemy.  
 The player controls a character that can run, jump on enemies, and go through levels while collecting coins and power-ups.
+
+![Level Example](mario1.png)
 
 Main features implemented:
 - ✅ Horizontal movement  
@@ -19,6 +23,8 @@ Main features implemented:
 - ✅ Special platforms (e.g., sliding and disappearing)  
 - ✅ Automatic generation of the final level  
 - ✅ Life management and game over screen  
+
+![Level Example](mario3.png)
 
 ---
 
